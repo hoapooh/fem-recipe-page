@@ -1,0 +1,72 @@
+:root {
+	font-family: "Outfit", sans-serif;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--desktop: 1440px;
+	--mobile: 375px;
+
+	--font-big: "Young Serif", serif;
+
+	--stone-100: hsl(30, 54%, 90%);
+	--stone-150: hsl(30, 18%, 87%);
+	--stone-600: hsl(30, 10%, 34%);
+	--stone-900: hsl(24, 5%, 18%);
+
+	--brown-800: hsl(14, 45%, 36%);
+
+	--rose-800: hsl(332, 51%, 32%);
+	--rose-50: hsl(330, 100%, 98%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	min-height: 100vh;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+	background: var(--stone-100);
+	overflow: auto;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+.app {
+	background: #fff;
+	width: var(--desktop);
+	margin: 0 auto;
+	border-radius: 15px;
+	padding: 50px;
+}

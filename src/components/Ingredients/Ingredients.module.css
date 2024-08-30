@@ -1,0 +1,31 @@
+.ingredients {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid var(--stone-150);
+}
+
+.ingredients-title {
+	font-family: var(--font-big);
+	font-size: 3.2rem;
+	color: var(--brown-800);
+	font-weight: bold;
+}
+
+.ingredients-list {
+	padding-left: 20px;
+}
+
+.ingredients-list li {
+	color: var(--brown-800);
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.ingredients-list li:last-child {
+	margin-bottom: 0;
+}
+
+.ingredients-list li span {
+	color: var(--stone-600);
+	vertical-align: middle;
+}
