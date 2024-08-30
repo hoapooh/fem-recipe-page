@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Ingredients from "./components/Ingredients/Ingredients";
 import Instructions from "./components/Instructions/Instructions";
@@ -15,6 +16,7 @@ function App() {
 				<Instructions />
 				<Nutrition />
 			</Main>
+			<Footer />
 		</div>
 	);
 }
