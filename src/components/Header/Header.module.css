@@ -46,3 +46,9 @@
 	color: var(--stone-600);
 	vertical-align: middle;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.title {
+		font-size: 3.4rem;
+	}
+}

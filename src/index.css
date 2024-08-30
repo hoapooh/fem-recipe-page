@@ -7,7 +7,8 @@
 	-moz-osx-font-smoothing: grayscale;
 
 	--desktop: 1440px;
-	--mobile: 375px;
+	--tablet: 768px;
+	--mobile: 480px;
 
 	--font-big: "Young Serif", serif;
 
@@ -69,4 +70,39 @@ ul {
 	margin: 0 auto;
 	border-radius: 15px;
 	padding: 50px;
+}
+
+@media only screen and (max-width: 1440px) {
+	.app {
+		width: 100%;
+	}
+
+	body {
+		padding: 0;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+	.app {
+		width: 100%;
+		border-radius: 0;
+		padding: 40px;
+	}
+
+	body {
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.app {
+		width: 100%;
+		border-radius: 0;
+		padding: 30px;
+		padding-top: 0;
+	}
+
+	body {
+		padding: 0;
+	}
 }
